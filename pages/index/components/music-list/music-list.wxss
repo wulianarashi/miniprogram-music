@@ -1,0 +1,30 @@
+.music-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 10rpx;
+}
+
+.music-item {
+  width: 220rpx;
+  position: relative;
+  padding-bottom: 20rpx;
+}
+
+.music-img {
+  width: 100%;
+  height: 220rpx;
+  border-radius: 12rpx;
+}
+
+.music-name {
+  font-size: 26rpx;
+  line-height: 1.2;
+  padding: 2px 0 0 6px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

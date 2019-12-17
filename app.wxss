@@ -1,0 +1,18 @@
+@import './icon.wxss';
+page {
+   --themeColor: #4EDB97;
+   --darkBlack: #333;
+   --lightBlack:#929AA7;
+   --comBlack:#5C6471;
+   --lightGray:#A6B0BF;
+}
+.padding-box {
+  padding: 30rpx 20rpx;
+}
+
+.main-title {
+  color: #333033;
+  font-size: 46rpx;
+  font-weight: 600;
+  line-height: 46rpx;
+}

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "my-bar":"./components/bar/bar",
+    "my-lyric":"./components/lyric/lyric"
+  }
+}

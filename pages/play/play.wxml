@@ -1,0 +1,16 @@
+<view class="play-box">
+  <view class="play-circle">
+    <image class="play-img rotate {{playing? '':'rotate-stop'}}" src="{{imgUrl}}"></image>
+    <view class="play-content">
+      <text class="iconfont icon-icon" bindtap="prev"></text>
+      <view class="play-style" bindtap="changePlay">
+        <text class="iconfont {{playing ? 'icon-zanting1':'icon-bofang2'}}"></text>
+      </view>
+      <text class="iconfont icon-icon1" bindtap="next"></text>
+    </view>
+  </view>
+  <my-lyric lyric="{{lyric}}" class="lyric"/>
+  <my-bar bind:musicEnd="next" bind:timeUpdate="timeUpdate" bind:musicPlay="musicPlay"
+  bind:musicPause="musicPause"/>
+</view>
+

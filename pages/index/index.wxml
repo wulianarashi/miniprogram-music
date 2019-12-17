@@ -1,0 +1,13 @@
+<my-swiper />
+<my-nav />
+<view class="padding-box">
+  <text class="main-title">精选歌单</text><icon class="iconfont icon-bofang"></icon>
+  <my-music music_list="{{music_list}}" />
+</view>
+<view class="padding-box">
+  <text class="main-title">M·V</text><icon class="iconfont icon-bofang"></icon>
+  <my-mv mv_list="{{mv_list}}"/>
+</view>
+<view hidden="{{!flag}}" class="empty">
+  <icon class="iconfont icon-meiyoudingdan-01"></icon><text > 没有更多了</text>
+</view>

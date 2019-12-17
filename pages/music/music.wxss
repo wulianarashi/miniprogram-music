@@ -1,0 +1,53 @@
+.music-list {
+  display: flex;
+  max-height: 140rpx;
+  overflow: hidden;
+}
+
+.music-img-box {
+  width: 160rpx;
+  height: 140rpx;
+}
+
+.music-img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  border-radius: 12rpx;
+}
+
+.music-list {
+  margin: 10rpx 15rpx;
+}
+
+.music-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 14rpx;
+  width: 0;
+}
+
+.song-name {
+  display: block;
+  font-size: 34rpx;
+  color: var(--darkBlack);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 10rpx;
+}
+
+.album-name {
+  display: block;
+  font-size: 24rpx;
+  color: var(--lightBlack);
+}
+
+.music-play {
+  width: 100rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

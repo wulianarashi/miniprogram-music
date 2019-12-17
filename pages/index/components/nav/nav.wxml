@@ -1,0 +1,8 @@
+<view class="nav">
+  <block wx:for="{{navList}}" wx:key="id">
+    <view class="nav-item">
+      <image src="{{item.url}}" class="nav-ing"></image>
+      <text class="nav-text">{{item.text}}</text>
+    </view>
+  </block>
+</view>

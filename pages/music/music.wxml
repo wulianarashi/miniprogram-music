@@ -1,0 +1,16 @@
+<view>
+  <block wx:for="{{music}}" wx:key="id">
+    <view class="music-list" bindtap="gotoPlay" data-index="{{index}}">
+      <view class="music-img-box">
+        <image src="{{item.al.picUrl}}" class="music-img"></image>
+      </view>
+      <view class="music-content">
+        <text class="song-name">{{item.name}}</text>
+        <text class="album-name">{{item.al.name}}</text>
+      </view>
+      <view class="music-play">
+        <icon class="iconfont icon-bofang1"></icon>
+      </view>
+    </view>
+  </block>
+</view>

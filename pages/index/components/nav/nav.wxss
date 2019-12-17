@@ -1,0 +1,25 @@
+.nav {
+  padding: 0 20rpx;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-item {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-ing {
+  display: block;
+  height: 80rpx;
+  width: 80rpx;
+  margin: auto;
+}
+
+.nav-text {
+  margin-top: 6rpx;
+  font-size: 26rpx;
+  color: var(--darkBlack);
+  text-align: center;
+}

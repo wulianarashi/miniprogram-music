@@ -1,0 +1,8 @@
+<view class="music-list">
+  <block wx:for="{{music_list}}" wx:key="id">
+    <view class="music-item" bindtap="gotoMusic">
+      <image src="{{item.blurPicUrl}}" class="music-img"></image>
+      <view class="music-name">{{item.name}}</view>
+    </view>
+  </block>
+</view>

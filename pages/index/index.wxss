@@ -1,0 +1,12 @@
+.icon-bofang {
+  line-height: 46rpx;
+  font-size: 46rpx;
+  margin-left: 10rpx;
+}
+
+.empty {
+  font-size: 40rpx;
+  font-weight: 600;
+  text-align: center;
+  color: var(--themeColor);
+}

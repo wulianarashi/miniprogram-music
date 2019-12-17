@@ -1,0 +1,12 @@
+<view class="bar-box">
+  <text class="time">{{time.nowTime}}</text>
+  <view class="move-box">
+    <movable-area class="movable-area">
+      <movable-view direction="horizontal" class="movable-view" x="{{moveX}}" damping="1000" 
+      bindchange="onChange" bindtouchend="onTouchEnd"></movable-view>
+    </movable-area>
+    <progress stroke-width="5" activeColor="#4EDB97" backgroundColor="#D3D3D3" border-radius="16" 
+    percent="{{percent}}"></progress>
+  </view>
+  <text class="time">{{time.endTime}}</text>
+</view>

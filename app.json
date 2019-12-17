@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/music/music",
+    "pages/play/play"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#4EDB97",
+    "navigationBarTitleText": "音乐岚",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "requiredBackgroundModes": [
+    "audio",
+    "location"
+  ]
+}
