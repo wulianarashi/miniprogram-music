@@ -1,4 +1,4 @@
-<swiper class="card-swiper square" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500" bindchange="cardSwiper" indicator-color="#CDCBCC" indicator-active-color="#4EDB97">
+<swiper class="card-swiper square" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500" indicator-color="#CDCBCC" indicator-active-color="#4EDB97">
   <block wx:for="{{swiperList}}" wx:key="url">
     <swiper-item class="{{cardCur==index?'cur':''}}">
       <view class="swiper-item">
