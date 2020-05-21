@@ -2,9 +2,6 @@
   <block wx:for="{{mv_copy_list}}" wx:key="vid">
     <view class="mv-item">
       <image src="{{item.coverUrl}}" class="mv-img"></image>
-      <view class="count-box">
-        <text class="mv-count">{{item.playTime}}</text>
-      </view>
       <view class="mv-name">{{item.title}}</view>
     </view>
   </block>
